@@ -1,0 +1,128 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#accessibility-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Área de destaque */
+.highlight {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.highlight h1 {
+    color: #333;
+}
+
+.video-controls {
+    margin-top: 10px;
+}
+
+.video-controls button {
+    margin-right: 10px;
+}
+
+.video-controls input[type="range"] {
+    width: 150px;
+}
+
+/* Estilo da lista de cursos */
+#cursos {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.course {
+    text-align: center;
+    max-width: 200px;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* CAPTCHA Acessível */
+#captcha {
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#captcha img {
+    margin: 10px 0;
+    width: 20%;
+}
+
+#captcha button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.audio-controls {
+    margin-top: 10px;
+}
+
+.audio-controls button {
+    margin-right: 10px;
+}
+
+.audio-controls input[type="range"] {
+    width: 150px;
+}

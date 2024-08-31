@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de E-learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="e-learning.jpg" alt="Logotipo da Plataforma de E-learning">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#perfil">Meu Perfil</a></li>
+                <li><a href="#suporte">Suporte</a></li>
+            </ul>
+        </nav>
+        <button id="accessibility-btn">Acessibilidade</button>
+    </header>
+
+    <!-- Área de Destaque -->
+    <section class="highlight">
+        <h1>Bem-vindo à Plataforma de E-learning</h1>
+        <video controls>
+            <source src="boas-vindas.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+
+    <!-- Lista de Cursos -->
+    <section id="cursos">
+        <h2>Cursos Disponíveis</h2>
+        <div class="course">
+            <img src="code1.png" alt="Imagem ilustrativa do curso de Introdução à Programação. A imagem mostra um conjunto de zeros e uns, em cor azul. O fundo é preto. ">
+            <h3>Introdução à Programação</h3>
+            <p>Aprenda os conceitos básicos de programação com exemplos práticos.</p>
+        </div>
+        <div class="course">
+            <img src="code.jpg" alt="Imagem ilustrativa do curso de Desenvolvimento Web. A imagem mostra um trecho de código HTML. ">
+            <h3>Desenvolvimento Web</h3>
+            <p>Domine as tecnologias para criar websites e aplicações web modernas.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Plataforma de E-learning. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleGlobalAudio() {
+            const audio = document.querySelector('audio');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+
+        function adjustGlobalVolume(volume) {
+            const audio = document.querySelector('audio');
+            audio.volume = volume;
+        }
+    </script>
+</body>
+
+</html>
